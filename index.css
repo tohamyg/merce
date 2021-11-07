@@ -256,10 +256,10 @@ margin-top: 15px;
     
 }
 .information .info2{
-    width: 40%;
+    width: 50%;
     color: #fff;
     height: 80%;
-    background: aliceblue;
+    background: #192a56;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -272,7 +272,7 @@ margin-top: 15px;
     width: 100%;
 }
 .information .info2 h1{
-    color: #6c5ce7;
+    color: #fff;
     font-size: 25px;
 }
 .information .info2 a button{
@@ -589,7 +589,7 @@ transition: color 0.5s;
 /* start with section*/
 .section{
     width: 100%;
-    background: #f2f1f352;
+    
 
     padding: 2px 8%;
     margin-bottom: 50px;
@@ -1448,6 +1448,9 @@ background: #5029bc;
     z-index: 2;
     padding-left: 20px;
     }
+    .information .info2{
+        display: none;
+    }
     .information .info1 h1 {
         color: #fff;
         font-weight: 900;
@@ -1602,6 +1605,9 @@ background: #5029bc;
     position: absolute;
     z-index: 2;
     }
+    .information .info2{
+        display: none;
+    }
     .features {
         padding-bottom: 50px;
         position: relative;
@@ -1744,6 +1750,9 @@ background: #5029bc;
     .information .info1{
         width: 90%;
       
+    }
+    .information .info2{
+        display: none;
     }
     .information .info1 p{
         color: #fff;
