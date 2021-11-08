@@ -27,10 +27,18 @@ padding: 0px 37px;
      justify-content: center;
      height: 72px;
  }
+ .container .logo h1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #9164ff;
+     letter-spacing: 1.5px;
+     font-weight: 500;
+ }
  .container .logo img{
      width: 80px ;
      cursor: pointer;
-   
+   margin-right: 5px;
  }
 
  .container .links{
@@ -238,14 +246,14 @@ padding: 0px 37px;
 
 }
 .information .info1 button{
-    width: 250px;
+    width: 200px;
     border: 0;
     border-radius: 10px;
 margin-top: 15px;
     outline: none;
    background: #fff;
   color: #2e55b3;
-  padding: 13px;
+  padding: 15px;
   transition: background 0.5s;
 
 }
@@ -253,12 +261,13 @@ margin-top: 15px;
 .information .info1 button:hover{
  background: #6c5ce7;
  color: #fff;
+ 
     
 }
 .information .info2{
-    width: 50%;
+    width:40%;
     color: #fff;
-    height: 80%;
+    height: 76%;
     background: #192a56;
     display: flex;
     align-items: center;
@@ -276,14 +285,14 @@ margin-top: 15px;
     font-size: 25px;
 }
 .information .info2 a button{
-    width: 250px;
+    width: 200px;
     border: 0;
     border-radius: 10px;
 margin-top: 15px;
     outline: none;
    background: #fff;
   color: #2e55b3;
-  padding: 13px;
+  padding: 15px;
   transition: background 0.5s;
 }
 .information .info2 a button:hover{
@@ -359,6 +368,10 @@ background: #f2f1f352;
 }
 .testmonials .test1 h4{
     margin-bottom: 15px;
+    color: #9164ff;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+
 }
 .testmonials .test1 hr{
     border: 0;
@@ -1281,7 +1294,7 @@ background: #5029bc;
      display: flex;
      align-items: center;
      justify-content: space-between;
-     padding: 100px 100px;
+     padding: 50px 100px 100px 100px;
      
  }
  .price div{
